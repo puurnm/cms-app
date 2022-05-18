@@ -20,3 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::resource('mahasiswas', App\Http\Controllers\API\MahasiswaAPIController::class);
+
+Route::resource('writers', App\Http\Controllers\API\writerAPIController::class);

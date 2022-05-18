@@ -23,3 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::resource('mahasiswas', App\Http\Controllers\MahasiswaController::class);
+
+Route::resource('writers', App\Http\Controllers\writerController::class);
