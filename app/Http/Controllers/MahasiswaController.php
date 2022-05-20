@@ -7,7 +7,7 @@ use App\Http\Requests\UpdateMahasiswaRequest;
 use App\Repositories\MahasiswaRepository;
 use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
-use Flash;
+use Laracasts\Flash\Flash;
 use Response;
 
 class MahasiswaController extends AppBaseController
